@@ -24,19 +24,39 @@ concurrency:
 jobs:
   # Build job
   build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: Setup Pages
-        uses: actions/configure-pages@v3
-      - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
-        with:
-          source: ./src/
-          destination: ./_site
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+    - uses: actions/checkout@v2
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '2.7' # здесь вы можете указать версию Ruby, которую вы используете
+    - name: Build and Deploy
+      run: |
+        bundle install
+        JEKYLL_ENV=production bundle exec jekyll build --baseurl ${{ env.BASE_URL }}
+        echo 'www.example.com' > _site/CNAME
+        cd _site
+        git init
+        git config user.name "${{ github.actor }}"
+        git config user.email "${{ github.actor }}@users.noreply.github.com"
+        git add .
+        git commit -m "Deploy to GitHub Pages"
+        git push --force "https://${{ github.actor }}:${{ secrets.ACCESS_TOKEN }}@github.com/${{ github.repository }}.git" master:${{ env.GH_PAGES_BRANCH }}
+      env:
+        BASE_URL: /src # здесь вы указываем путь к папке с вашим сайтом
+        GH_PAGES_BRANCH: gh-pages
+#    runs-on: ubuntu-latest
+#    steps:
+#      - name: Checkout
+#        uses: actions/checkout@v3
+#      - name: Setup Pages
+#        uses: actions/configure-pages@v3
+#      - name: Build with Jekyll
+#        uses: actions/jekyll-build-pages@v1
+#        with:
+#          source: ./src/
+#          destination: ./_site
+#      - name: Upload artifact
+#        uses: actions/upload-pages-artifact@v1
 
   # Deployment job
   deploy:
