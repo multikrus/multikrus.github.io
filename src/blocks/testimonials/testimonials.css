@@ -1,0 +1,8 @@
+.testimonials {
+  position: relative;
+  z-index: 0;
+  width: 100%;
+  margin: 0 auto;
+  aspect-ratio: 1920 / 662;
+  background: #FAFAFA;
+}

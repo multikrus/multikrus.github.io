@@ -1,0 +1,5 @@
+.card__title-and-icon-bundle {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+}

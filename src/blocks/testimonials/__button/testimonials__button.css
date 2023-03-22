@@ -1,0 +1,11 @@
+.testimonials__button {
+  padding: 0;
+  margin: 0;
+  z-index: 10;
+  border: none;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+  cursor: pointer;
+}

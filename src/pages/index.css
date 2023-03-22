@@ -1,0 +1,43 @@
+@import url(../fonts/fonts.css);
+@import url(../vendor/normalize.css);
+
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/main-content/main-content.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__navigation/header__navigation.css);
+@import url(../blocks/header/__links-list/header__links-list.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__phone/header__phone.css);
+@import url(../blocks/header/__action-group/header__action-group.css);
+
+@import url(../blocks/section/section.css);
+@import url(../blocks/section/__button/section__button.css);
+@import url(../blocks/section/__button/_size/section__button_size_small.css);
+
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__text-container/intro__text-container.css);
+@import url(../blocks/intro/__welcome-text/intro__welcome-text.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/section/__text-decoration/section__text-decoration.css);
+
+@import url(../blocks/testimonials/testimonials.css);
+@import url(../blocks/testimonials/__background-text/testimonials__background-text.css);
+@import url(../blocks/testimonials/__background-text-container/testimonials__background-text-container.css);
+@import url(../blocks/testimonials/__grid-container/testimonials__grid-container.css);
+@import url(../blocks/testimonials/__call-to-action-bundle/testimonial__call-to-action-bundle.css);
+@import url(../blocks/testimonials/__text/testimonial__text.css);
+@import url(../blocks/testimonials/__button/testimonials__button.css);
+@import url(../blocks/testimonials/__button-text/testimonials__button-text.css);
+
+@import url(../blocks/cards-grid/cards-grid.css);
+
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__title-and-icon-bundle/card__title-and-icon-bundle.css);
+@import url(../blocks/card/__icon/card__icon.css);
+@import url(../blocks/card/__title/card__title.css);
+@import url(../blocks/card/__text/card__text.css);
+
+

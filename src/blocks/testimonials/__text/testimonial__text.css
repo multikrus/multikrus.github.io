@@ -1,0 +1,15 @@
+.testimonial__text {
+  margin: 0;
+  z-index: 10;
+  font-family: 'Red Hat Display', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  /* or 58px */
+
+
+  /* #172B41 */
+
+  color: #172B41;
+}

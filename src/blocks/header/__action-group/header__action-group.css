@@ -1,0 +1,8 @@
+.header__action-group {
+  grid-area: action-group;
+  justify-self: end;
+  align-items: center;
+  display: flex;
+  column-gap: 24px;
+
+}

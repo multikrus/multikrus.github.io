@@ -1,0 +1,12 @@
+.header__phone {
+
+  font-family: 'Red Hat Display', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+  /* or 25px */
+
+
+  color: #172B41;
+}

@@ -1,0 +1,8 @@
+.card {
+  padding: 40px;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  z-index: 10;
+}

@@ -1,0 +1,12 @@
+.header {
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(12, 96px);
+  justify-content: center;
+  column-gap: 32px;
+  grid-template-rows: 102px;
+  grid-template-areas:
+  "logo logo links-list links-list links-list links-list . . . action-group action-group action-group";
+  align-items: center;
+}
