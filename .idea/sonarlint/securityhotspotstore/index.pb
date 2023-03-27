@@ -123,8 +123,6 @@ T
 $blocks/technologies/technologies.css,3/d/3dbe16333bcb65405801662d43e17c75a3bfeae5
 n
 >blocks/services/__snippet/_closed/services__snippet_closed.css,a/0/a04660feb61be6d90feae19466c0836323b7e501
-ˆ
-Xblocks/services/__service-snippet-button/_open/services__service-snippet-button_open.css,3/0/301d8ea2a907826b5334ed0838b3c06c6053d0ec
 N
 images/service-open-button.svg,9/3/930aaff8b51a2c014c865bf7d46a80e8fa1024ab
 „
@@ -155,8 +153,6 @@ u
 Eblocks/testimonials/__grid-container/testimonials__grid-container.css,1/d/1dd827a3ea6b4100e5ea0080259b74e8a061b81d
 s
 Cblocks/services/__snippet-first-row/services__snippet-first-row.css,a/6/a6860e69f40388464decfccc28134265692d3563
-}
-Mblocks/services/__service-snippet-button/services__service-snippet-button.css,b/6/b6370f583a30b824b045f0a4bfe34ae6d9e44b11
 }
 Mblocks/technologies/__gallery-item-image/technologies__gallery-item-image.css,0/9/09a840724b7212dc4c687a06a85b03fcec9cae23
 q
@@ -191,8 +187,6 @@ D
 blocks/card/card.css,9/e/9e689ae3da5f37bbd16dca2e1629f7258f0cf406
 L
 images/slide-open-button.svg,a/1/a1a080314731eb91c4a0d79bfc5d0f8eb508d971
-a
-1blocks/slide/__open-button/slide__open-button.css,2/0/2089dcb22aeb1eb1faeec31124fc9a31b5c28368
 P
  blocks/cards-grid/cards-grid.css,1/2/12afc7f5ed889deda83684f47226e300b25ae956
 U
@@ -209,8 +203,6 @@ o
 ?blocks/slide/__column/_position/slide__column_position_left.css,d/e/ded5e7237dd999708bb14112783a55b2c9e7b6ab
 p
 @blocks/slide/__column/_position/slide__column_position_right.css,c/7/c7233c23bf61cecdba4f1a48968d3e34da5f35a4
-X
-(blocks/call-to-action/call-to-action.css,d/6/d630d5789c08c4f043a254be92217d81440bea7e
 g
 7blocks/call-to-action/__title/call-to-action__title.css,7/b/7be72411c49568ec4122241b6c72f47168abd03f
 y
@@ -247,10 +239,6 @@ T
 $images/revwies-arrow-right-white.svg,e/6/e6fd54e5923345457e1760c1da73426f81ef8204
 k
 ;blocks/reviews/__slider-control/reviews__slider-control.css,4/8/48f2631a68d4f691b975cff91b8ec0eea8e41e56
-{
-Kblocks/reviews/__slider-control/_type/reviews__slider-control_type_next.css,9/d/9d8a2a98e4dbbebbc83f18f960210b32fc0e7fd9
-
-Oblocks/reviews/__slider-control/_type/reviews__slider-control_type_previous.css,2/e/2ec198e4b05778a15f392d2bcb3cf7c3659e107d
 S
 #images/reviews-arrow-left-black.svg,1/a/1aef05c6bb3582031b84d8a976f22cbf7dd92204
 q
