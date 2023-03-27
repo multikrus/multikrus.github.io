@@ -1,0 +1,16 @@
+.contact-us__subtitle {
+  margin: 0;
+  grid-row: 1;
+  grid-column: 7 / -1;
+  font-family: 'Red Hat Display', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+
+
+  /* #05E0E0 */
+
+  color: #05E0E0;
+}

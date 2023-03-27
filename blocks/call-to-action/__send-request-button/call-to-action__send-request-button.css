@@ -1,0 +1,22 @@
+.call-to-action__send-request-button {
+  grid-row: 3;
+  grid-column: 3 / -1;
+  white-space: nowrap;
+  padding: 20px 24px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  border: none;
+  box-shadow: none;
+  cursor: pointer;
+  justify-self: start;
+
+  text-align: center;
+  font-family: 'Red Hat Display', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+  /* identical to box height, or 25px */
+
+  color: #006EE5;
+}

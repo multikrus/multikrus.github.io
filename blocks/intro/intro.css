@@ -2,9 +2,10 @@
   width: 100%;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(12, 96px);
+  grid-template-columns: repeat(12, calc(96 / 1920 * 100vw));
+  grid-template-rows: repeat(3, min-content);
   justify-content: center;
-  column-gap: 32px;
+  column-gap: calc(32 / 1920 * 100vw);
   aspect-ratio: 1920 / 992;
   grid-template-areas:
   "text-container text-container text-container text-container text-container text-container . . . . . .";

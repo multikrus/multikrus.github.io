@@ -1,0 +1,7 @@
+.technologies__gallery-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FAFAFA;
+}

@@ -1,14 +1,13 @@
 .testimonials__grid-container {
   margin: 0 auto;
   width: 100%;
-  max-width: 1504px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-areas:
   "cards-grid cards-grid cards-grid cards-grid cards-grid cards-grid cards-grid cards-grid cards-grid cards-grid cards-grid cards-grid"
   ". . call-to-action-bundle call-to-action-bundle call-to-action-bundle call-to-action-bundle call-to-action-bundle call-to-action-bundle call-to-action-bundle call-to-action-bundle . .";
   align-items: start;
-  justify-content: center;
-  column-gap: 32px;
+  justify-items: center;
+  column-gap: calc(32 / 1920 * 100vw);
   row-gap: 80px;
 }

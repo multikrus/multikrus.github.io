@@ -5,6 +5,7 @@
   grid-area: cards-grid;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  column-gap: 32px;
+  column-gap: calc(32 / 1920 * 100vw);
   grid-row: 1;
+  justify-content: center;
 }

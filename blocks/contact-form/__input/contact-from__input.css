@@ -1,0 +1,20 @@
+.contact-from__input {
+  padding: 0;
+  grid-column: 1;
+  grid-row: 2;
+  background: transparent;
+  border: none;
+
+  font-family: 'Red Hat Display', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+
+  /* #FFFFFF */
+
+  color: #FFFFFF;
+
+}

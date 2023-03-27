@@ -1,5 +1,5 @@
 .header__phone {
-
+  white-space: nowrap;
   font-family: 'Red Hat Display', sans-serif;
   font-style: normal;
   font-weight: 700;

@@ -1,0 +1,6 @@
+.slide__image {
+  grid-row: 1 / -1;
+  grid-column: 1 / 7;
+  object-fit: contain;
+  width: 100%;
+}

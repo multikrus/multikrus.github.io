@@ -1,0 +1,9 @@
+.contact-us__grid-container {
+  width: 100vw;
+  max-width: calc(1520 / 1920 * 100vw);
+  display: grid;
+  grid-template-columns: repeat(12, calc(96 / 1920 * 100vw));
+  grid-template-rows: repeat(3, min-content);
+  column-gap: calc(32 / 1920 * 100vw);
+  grid-auto-rows: min-content;
+}

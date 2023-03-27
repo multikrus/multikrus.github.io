@@ -1,0 +1,17 @@
+.slide__description {
+  grid-column: 7 / -1;
+  grid-row: 3;
+  margin: 54px 0 0;
+  font-family: 'Red Hat Display', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  /* or 36px */
+
+
+  /* #172B41 */
+
+  color: #172B41;
+
+}

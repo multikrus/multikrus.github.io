@@ -1,0 +1,4 @@
+.contact-form__label_for_email {
+  grid-row: 2;
+  grid-column: 4 / span 3;
+}

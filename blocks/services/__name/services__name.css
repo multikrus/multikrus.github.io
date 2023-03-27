@@ -1,0 +1,14 @@
+.services__name {
+  margin: 0;
+  font-family: 'Red Hat Display', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+  /* or 38px */
+
+
+  /* #FFFFFF */
+
+  color: #FFFFFF;
+}

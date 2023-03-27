@@ -1,0 +1,9 @@
+.services__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-row: 2;
+  grid-column: -1 / 1;
+  row-gap: 24px;
+}

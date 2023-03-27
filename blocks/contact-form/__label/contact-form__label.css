@@ -1,0 +1,9 @@
+.contact-form__label {
+  box-sizing: border-box;
+  border-bottom: 1px solid #FFFFFF;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, min-content);
+  align-items: start;
+  width: 100%;
+}

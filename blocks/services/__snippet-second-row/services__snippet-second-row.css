@@ -1,0 +1,5 @@
+.services__snippet-second-row {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 0 0 24px;
+}

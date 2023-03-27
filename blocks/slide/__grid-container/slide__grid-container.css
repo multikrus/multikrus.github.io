@@ -1,0 +1,10 @@
+.slide__grid-container {
+  width: 100%;
+  max-width: 1520px;
+  display: grid;
+  grid-template-columns: repeat(12, calc(96 / 1920 * 100vw));
+  column-gap: calc(32 / 1920 * 100vw);
+  grid-template-rows: repeat(5, min-content);
+  align-items: start;
+  justify-items: start;
+}

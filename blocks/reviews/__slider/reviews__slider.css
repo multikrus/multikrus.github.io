@@ -1,0 +1,15 @@
+.reviews__slider {
+  width: 100%;
+  /*max-width: calc(100vw - (100vw - 1520px) / 2);*/
+  overflow: hidden;
+  overflow-x: scroll;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  column-gap: calc(32 / 1920 * 100vw);
+}
+
+.reviews__slider::-webkit-scrollbar {
+  display: none;
+}

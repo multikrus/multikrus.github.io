@@ -1,0 +1,15 @@
+.services__title {
+  grid-area: title;
+  margin: 0;
+  font-family: 'Red Hat Display', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  /* identical to box height, or 58px */
+
+
+  /* #FFFFFF */
+
+  color: #FFFFFF;
+}

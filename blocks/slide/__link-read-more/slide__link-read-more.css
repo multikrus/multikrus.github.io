@@ -1,0 +1,19 @@
+.slide__link-read-more {
+  grid-column: 7 / -1;
+  grid-row: 5;
+  align-self: end;
+  text-decoration: none;
+  white-space: nowrap;
+  font-family: 'Red Hat Display', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  /* identical to box height, or 36px */
+
+
+  /* #006EE5 */
+
+  color: #0066FF;
+}
+

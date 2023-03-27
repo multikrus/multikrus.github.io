@@ -1,0 +1,10 @@
+.technologies__title {
+  margin: 0;
+  font-family: 'Red Hat Display', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  color: #172B41;
+  grid-area: title;
+}

@@ -1,0 +1,12 @@
+.technologies__grid-container {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(12, calc(96 / 1920 * 100vw));
+  grid-auto-rows: min-content;
+  column-gap: calc(32 / 1920 * 100vw);
+  row-gap: 64px;
+  grid-template-areas:
+  ". . title title title . . . categories categories categories categories"
+  "gallery gallery gallery gallery gallery gallery gallery gallery gallery gallery gallery gallery";
+
+}

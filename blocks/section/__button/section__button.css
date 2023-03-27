@@ -1,4 +1,5 @@
 .section__button {
+  white-space: nowrap;
   padding: 20px 24px;
   background: #0066FF;
   border-radius: 8px;
@@ -14,5 +15,4 @@
   /* identical to box height, or 25px */
 
   color: #FFFFFF;
-/* TODO Разобраться с LayOut Grids в фигме и как использовать их в верстке */
 }

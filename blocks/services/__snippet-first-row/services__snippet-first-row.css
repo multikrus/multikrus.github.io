@@ -1,0 +1,7 @@
+.services__snippet-first-row {
+  display: grid;
+  grid-template-columns: 1fr 2fr 24px;
+  grid-auto-rows: max-content;
+  column-gap: 32px;
+  align-items: center;
+}

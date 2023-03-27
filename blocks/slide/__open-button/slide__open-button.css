@@ -1,0 +1,15 @@
+.slide__open-button {
+  grid-row: 1;
+  grid-column: 12;
+  justify-self: end;
+  align-self: baseline;
+  display: block;
+  border: none;
+  width: 18px;
+  aspect-ratio: 1;
+  background: url("/images/slide-open-button.svg") transparent no-repeat center;
+  background-size: contain;
+  margin: 0;
+  padding: 0;
+
+}

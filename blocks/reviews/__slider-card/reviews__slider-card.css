@@ -1,0 +1,6 @@
+.reviews__slider-card {
+  width: calc(480 / 1920 * 100vw);
+  min-width: 300px;
+  padding: calc(40 / 1920 * 100vw) calc(40 / 1920 * 100vw) calc(71 / 1920 * 100vw);
+  box-sizing: border-box;
+}

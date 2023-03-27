@@ -1,0 +1,25 @@
+.technologies__radio-input-label {
+  white-space: nowrap;
+  font-family: 'Red Hat Display', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  /* identical to box height, or 36px */
+
+
+  /* #868F9A */
+
+  color: #ABB3BB;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.technologies__radio-input:checked + .technologies__radio-input-label {
+  color: #0066FF;
+}

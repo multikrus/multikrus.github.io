@@ -1,0 +1,10 @@
+.slide__column {
+
+}
+
+@media screen and (max-width: 400px) {
+  .slide__column {
+    grid-column: 1 / -1;
+  }
+
+}

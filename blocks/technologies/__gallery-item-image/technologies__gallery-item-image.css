@@ -1,0 +1,4 @@
+.technologies__gallery-item-image {
+  width: calc(120 / 1920 * 100vw);
+  object-fit: contain;
+}

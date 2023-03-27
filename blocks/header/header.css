@@ -2,11 +2,12 @@
   width: 100%;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(12, 96px);
+  max-width: 1600px;
+  grid-template-columns: repeat(12, calc(96 / 1920 * 100vw));
   justify-content: center;
-  column-gap: 32px;
+  column-gap: calc(32 / 1920 * 100vw);
   grid-template-rows: 102px;
   grid-template-areas:
-  "logo logo links-list links-list links-list links-list . . . action-group action-group action-group";
+  "logo logo links-list links-list links-list links-list . . action-group action-group action-group action-group";
   align-items: center;
 }

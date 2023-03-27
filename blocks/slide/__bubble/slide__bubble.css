@@ -1,0 +1,17 @@
+.slide__bubble {
+  padding: 6px 16px;
+  box-sizing: border-box;
+  border: 1px solid rgba(171, 179, 187, 0.2);
+  border-radius: 40px;
+  font-family: 'Red Hat Display', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+
+  /* #868F98 */
+
+  color: #868F98;
+}

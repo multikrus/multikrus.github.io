@@ -1,0 +1,16 @@
+.call-to-action__title {
+  margin: 0;
+  grid-column: 3 / 9;
+  font-family: 'Red Hat Display', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 100%;
+  /* or 72px */
+
+
+  /* #FFFFFF */
+
+  color: #FFFFFF;
+
+}

@@ -1,0 +1,4 @@
+.reviews__slider-controls {
+  grid-column: 12 / -1;
+  display: flex;
+}
