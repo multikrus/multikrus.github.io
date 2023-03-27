@@ -2,7 +2,7 @@
   text-align: center;
   margin: 0;
   grid-row: 4;
-  grid-column: 3 / 6;
+  grid-column: 3 / span 6;
   font-family: 'Red Hat Display', sans-serif;
   font-style: normal;
   font-weight: 400;

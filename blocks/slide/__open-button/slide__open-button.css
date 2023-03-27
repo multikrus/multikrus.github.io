@@ -7,7 +7,7 @@
   border: none;
   width: 18px;
   aspect-ratio: 1;
-  background: url("/images/slide-open-button.svg") transparent no-repeat center;
+  background: url("../../images/slide-open-button.svg") transparent no-repeat center;
   background-size: contain;
   margin: 0;
   padding: 0;
