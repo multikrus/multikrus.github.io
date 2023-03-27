@@ -67,8 +67,6 @@ e
 5blocks/testimonials/__button/testimonials__button.css,a/7/a7ad7a6bc4f18d58c86575ea9fb393388711fcfa
 a
 1blocks/header/__links-list/header__links-list.css,b/3/b375b989e7a236cf352ef61e9126823e430f93ad
-i
-9blocks/contact-us/__side-image/contact-us__side-image.css,3/e/3e434be01df42d9f6f74d49e0889af746e5b644e
 c
 3blocks/contact-form/__label/contact-form__label.css,5/6/56290ab16985ef680b0b80b45f7b19e14c86d0be
 m
@@ -87,10 +85,6 @@ w
 Gblocks/contact-form/__fieldset-legend/contact-form__fieldset-legend.css,4/8/489c696ae07779408d43e81c05724d55e94f49c8
 q
 Ablocks/contact-form/__label/for/contact-form__label_for_email.css,2/2/2206b0b85d5ba878d15365a65c4d6a1b4bb6d49c
-s
-Cblocks/contact-form/__label/for/contact-form__label_for_comment.css,9/b/9ba58792abf4a137170b3df52e60921b015e2c12
-‹
-[blocks/contact-form/__terms-and-conditions-text/contact-form__terms-and-conditions-text.css,1/e/1e81c7a0180ce2fbbe4c91f48dc9882a6cd07e0a
 g
 7blocks/technologies/__gallery/technologies__gallery.css,1/c/1c4bebfd78dedea26c086da6978e09c6c8144175
 s
@@ -135,8 +129,6 @@ N
 images/service-open-button.svg,9/3/930aaff8b51a2c014c865bf7d46a80e8fa1024ab
 „
 Tblocks/services/__snippet-second-row/_closed/services__snippet-second-row_closed.css,9/b/9b21f6f7478d904a1eebffcc9e46e35f60079a47
-F
-blocks/intro/intro.css,8/b/8b31f9ef09a9b73b9d059e4661ce209e714cf181
 ‚
 Rblocks/services/__snippet-first-row/_opened/services__snippet-first-row_opened.css,c/e/ced32ae6beb09811b3d0183cfe1c8c49a9caa5ae
 H

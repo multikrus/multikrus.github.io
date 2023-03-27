@@ -1,6 +1,6 @@
 .services {
   padding: 120px 0 300px;
-  background: url("/images/services-background.png") no-repeat  #0066FF;
+  background: url("../../images/services-background.png") no-repeat  #0066FF;
   background-size: cover;
   width: 100%;
 }
