@@ -4,6 +4,6 @@
   margin: 0;
   padding: 0;
   border: none;
-  background: transparent url(../../../images/services-close-button.svg) center center no-repeat;
+  background: transparent url(../../../../assets/icons/services-close-button.svg) center center no-repeat;
   background-size: contain;
 }
