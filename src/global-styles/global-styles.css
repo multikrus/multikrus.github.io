@@ -1,7 +1,18 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 html {
   --color-white: rgb(255 255 255 / 100%); /* #FFFFFF */
   --color-black: rgb(23 43 65 / 100%); /* #172B41 */
   --color-light-grey: rgb(250 250 250 / 100%); /* #FAFAFA */
   --color-dark-grey: rgb(134 143 152 / 100%); /* #868F98 */
   --color-blue: rgb(0 102 255 / 100%); /* #0066FF */
+}
+
+body,
+html {
+  height: 100%;
 }

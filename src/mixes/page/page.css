@@ -1,12 +1,9 @@
 .page {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  margin: 0 auto;
-  width: 100%;
-  min-width: 320px;
-  min-height: 100vh;
-  background-color: #FFF;
-  overflow: initial;
+  min-width: 360px;
+  min-height: 100%;
+  background-color: var(--color-white);
   display: flex;
   flex-direction: column;
   align-items: center;

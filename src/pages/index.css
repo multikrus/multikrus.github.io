@@ -3,7 +3,7 @@
 @import url("../global-styles/fonts.css");
 @import url("../global-styles/global-styles.css");
 @import url("../vendor/normalize.css");
-@import url("../blocks/page/page.css");
+@import url("../mixes/page/page.css");
 @import url("../blocks/main-content/main-content.css");
 @import url("../blocks/header/header.css");
 @import url("../blocks/header/__logo/header__logo.css");
