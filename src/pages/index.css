@@ -18,6 +18,11 @@
 @import url("../mixes/link/_color/link_color_black.css");
 @import url("../mixes/link/_color/link_color_blue.css");
 @import url("../mixes/link/_color/link_color_grey.css");
+@import url("../blocks/button/button.css");
+@import url("../blocks/button/_size/button_size_regular.css");
+@import url("../blocks/button/_size/button_size_small.css");
+@import url("../blocks/button/_color/button_color_blue.css");
+@import url("../blocks/button/_color/button_color_white.css");
 @import url("../blocks/main-content/main-content.css");
 @import url("../blocks/header/header.css");
 @import url("../blocks/header/__logo/header__logo.css");

@@ -1,0 +1,8 @@
+.button {
+  white-space: nowrap;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
