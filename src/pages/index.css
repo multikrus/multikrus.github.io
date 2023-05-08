@@ -1,6 +1,7 @@
 /* в продакшине не рекомендуется оставлять данный подход к импорту стилей. Лучше все стили запихнуть в один bundle */
 
 @import url("../global-styles/fonts.css");
+@import url("../global-styles/global-styles.css");
 @import url("../vendor/normalize.css");
 @import url("../blocks/page/page.css");
 @import url("../blocks/main-content/main-content.css");
