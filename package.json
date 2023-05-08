@@ -9,6 +9,7 @@
   "author": "Milyutin Sergey",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "^8.40.0",
     "stylelint": "^15.6.1",
     "stylelint-config-standard": "^33.0.0"
   }
