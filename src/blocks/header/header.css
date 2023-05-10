@@ -1,13 +1,6 @@
 .header {
-  width: 100%;
-  margin: 0 auto;
-  display: grid;
-  max-width: 1600px;
-  grid-template-columns: repeat(12, calc(96 / 1920 * 100vw));
-  justify-content: center;
-  column-gap: calc(32 / 1920 * 100vw);
-  grid-template-rows: 102px;
-  grid-template-areas:
-  "logo logo links-list links-list links-list links-list . . action-group action-group action-group action-group";
+  max-width: 1648px; /* 1600 под контент и 48 это на padding */
+  display: flex;
+  height: 102px;
   align-items: center;
 }
