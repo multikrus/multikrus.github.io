@@ -1,2 +1,5 @@
-.header__write-us-btn {
+@media screen and (width <= 820px) {
+  .header__write-us-btn {
+    display: none;
+  }
 }

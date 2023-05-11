@@ -1,0 +1,5 @@
+@media screen and (width <= 820px) {
+  .main-page__header-burger {
+    order: 1;
+  }
+}
