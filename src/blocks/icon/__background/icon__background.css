@@ -1,0 +1,14 @@
+.icon__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-blue);
+  transform: scale(0);
+  opacity: 0;
+  transition: transform var(--animation-duration) ease, opacity var(--animation-duration) ease;
+}
+
+.icon:hover .icon__background {
+  transform: scale(1);
+  opacity: 1;
+}

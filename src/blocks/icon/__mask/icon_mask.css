@@ -1,0 +1,12 @@
+.icon_mask {
+  height: 100%;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  transition: background-color var(--animation-duration) ease;
+}
+
+.icon:hover .icon_mask {
+  background-color: var(--color-white);
+}
