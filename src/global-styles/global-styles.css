@@ -13,6 +13,7 @@ html {
   --color-dark-blue: rgb(0 32 201 / 100%); /* #0020C9 */
   --color-turquoise: rgb(5 224 224 / 100%); /* #05E0E0 */
   --animation-duration: 300ms;
+  --regular-animation: var(--animation-duration) ease;
 }
 
 body,

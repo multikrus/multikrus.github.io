@@ -1,7 +1,7 @@
 .button_color_white {
   background-color: var(--color-white);
   color: var(--color-blue);
-  transition: background-color var(--animation-duration) ease, color var(--animation-duration) ease;
+  transition: background-color var(--regular-animation), color var(--regular-animation);
 }
 
 .button_color_white:hover {

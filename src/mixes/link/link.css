@@ -1,4 +1,4 @@
 .link {
   text-decoration: none;
-  transition: color var(--animation-duration) ease;
+  transition: color var(--regular-animation);
 }

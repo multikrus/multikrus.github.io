@@ -4,7 +4,7 @@
   -webkit-mask-position: center;
   mask-repeat: no-repeat;
   mask-position: center;
-  transition: background-color var(--animation-duration) ease;
+  transition: background-color var(--regular-animation);
 }
 
 .icon:hover .icon_mask {
