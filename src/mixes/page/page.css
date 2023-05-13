@@ -2,7 +2,7 @@
 .page {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  min-width: 360px;
+  min-width: var(--page-min-width);
   min-height: 100%;
   background-color: var(--color-white);
 }
