@@ -19,6 +19,12 @@ html {
   --page-side-padding: 24px;
 }
 
+@media screen and (width <= 820px) {
+  html {
+    --header-height: 64px;
+  }
+}
+
 body,
 html {
   height: 100%;
