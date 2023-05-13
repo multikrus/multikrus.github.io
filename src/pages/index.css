@@ -4,8 +4,10 @@
 @import url("../global-styles/global-styles.css");
 @import url("../vendor/normalize.css");
 @import url("../mixes/page/page.css");
-@import url("../mixes/page/_side-margin_auto/page_side-margin_auto.css");
 @import url("../mixes/page/_side-padding_regular/page_side-padding_regular.css");
+@import url("../mixes/layout-3rows/layout-3rows.css");
+@import url("../mixes/layout-3rows/__row/_justify/layout-3rows__row_justify_center.css");
+@import url("../mixes/layout-3rows/__row/_no-shrink/layout-3rows__row_no-shrink.css");
 @import url("../mixes/text/text.css");
 @import url("../mixes/text/_size/text_size_h1.css");
 @import url("../mixes/text/_size/text_size_h2.css");
