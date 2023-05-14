@@ -1,0 +1,4 @@
+.burger-menu__menu {
+  display: flex;
+  gap: 16px 24px;
+}

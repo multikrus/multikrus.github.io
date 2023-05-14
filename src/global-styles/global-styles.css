@@ -10,6 +10,8 @@ html {
   --color-light-grey: rgb(250 250 250 / 100%); /* #FAFAFA */
   --color-dark-grey: rgb(134 143 152 / 100%); /* #868F98 */
   --color-blue: rgb(0 102 255 / 100%); /* #0066FF */
+  --color-light-blue: rgb(230 237 242 / 100%); /* #E6EDF2 */
+  --color-light-blue-alpha: rgb(0 62 155 / 15%); /* #d9e2f0 */
   --color-dark-blue: rgb(0 32 201 / 100%); /* #0020C9 */
   --color-turquoise: rgb(5 224 224 / 100%); /* #05E0E0 */
   --animation-duration: 300ms;
