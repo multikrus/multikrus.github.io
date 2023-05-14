@@ -47,6 +47,7 @@
 @import url("../blocks/header/__write-us-btn/header__write-us-btn.css");
 @import url("../blocks/header/__menu-margin/header__menu-margin.css");
 @import url("../blocks/header/__phone-margin/header__phone-margin.css");
+@import url("../blocks/header/_burger-menu/header_burger-menu_opened.css");
 @import url("../blocks/menu/menu.css");
 @import url("../blocks/menu/_multiline/menu_multiline.css");
 @import url("../blocks/menu/__gap/menu__gap.css");

@@ -6,6 +6,7 @@
   align-items: center;
   padding-left: var(--page-side-padding);
   padding-right: var(--page-side-padding);
+  transition: background-color var(--regular-animation);
 }
 
 @media screen and (width <= 820px) {
