@@ -9,7 +9,13 @@
 <body>
 <div class="main-page page layout-3rows">
 <!-- Шапка -->
-  <header class="header layout-3rows__row_justify_center layout-3rows__row_no-shrink">
+  <header
+    class="header
+      layout-3rows__row_justify_center
+      layout-3rows__row_no-shrink
+      z-index_position_relative
+      z-index__main-context_level_10"
+  >
     <div class="header__burger main-page__header-burger icon icon_size_regular">
       <div class="icon__background icon__background_shape_rectangle icon_size_regular"></div>
       <div class="icon__burger icon_mask icon_color_black"></div>
@@ -43,7 +49,7 @@
   </header>
 
 <!-- Выпадающее меню после клика на бургер-иконку -->
-  <div class="burger-menu">
+  <div class="burger-menu z-index_position_absolute">
     <div class="burger-menu__menu menu menu_multiline">
       <a class="burger-menu__link text text_nowrap link link_color_black" href="#">Services</a>
       <a class="burger-menu__link text text_nowrap link link_color_black" href="#">Cases</a>

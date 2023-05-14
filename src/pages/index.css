@@ -24,6 +24,9 @@
 @import url("../mixes/link/_color/link_color_black.css");
 @import url("../mixes/link/_color/link_color_blue.css");
 @import url("../mixes/link/_color/link_color_grey.css");
+@import url("../mixes/z-index/_position/z-index_position_absolute.css");
+@import url("../mixes/z-index/_position/z-index_position_relative.css");
+@import url("../mixes/z-index/__main-context/_level/z-index__main-context_level_10.css");
 @import url("../blocks/button/button.css");
 @import url("../blocks/button/_size/button_size_regular.css");
 @import url("../blocks/button/_size/button_size_small.css");
