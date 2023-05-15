@@ -1,0 +1,16 @@
+{
+  "name": "spread-layout",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Milyutin Sergey",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.40.0",
+    "stylelint": "^15.6.1",
+    "stylelint-config-standard": "^33.0.0"
+  }
+}

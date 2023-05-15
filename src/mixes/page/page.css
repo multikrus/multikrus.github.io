@@ -1,0 +1,8 @@
+/* page и page_* - это миксы со стилями, которые применимы ко всем страницам сайта */
+.page {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-width: var(--page-min-width);
+  min-height: 100%;
+  background-color: var(--color-white);
+}

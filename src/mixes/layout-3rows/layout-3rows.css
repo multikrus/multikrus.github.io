@@ -1,0 +1,9 @@
+/* layout-3rows и layout-3rows_* - это миксы, которые реализуют распространённую вёрстку, когда есть один блок сверху
+   (например, шапка), один блок прижат к низу (например, подвал) и n-ое количество блоков между ними
+*/
+.layout-3rows {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}

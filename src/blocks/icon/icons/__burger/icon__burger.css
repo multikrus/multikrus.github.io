@@ -1,0 +1,4 @@
+.icon__burger {
+  -webkit-mask-image: url("../../../../../assets/icons/burger.svg");
+  mask-image: url("../../../../../assets/icons/burger.svg");
+}

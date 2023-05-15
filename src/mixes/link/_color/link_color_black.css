@@ -1,0 +1,12 @@
+.link_color_black {
+  color: var(--color-black);
+}
+
+.link_color_black:hover {
+  color: var(--color-blue);
+}
+
+.link_color_black:active {
+  color: var(--color-dark-blue);
+}
+

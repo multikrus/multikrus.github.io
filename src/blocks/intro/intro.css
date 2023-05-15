@@ -1,0 +1,14 @@
+.intro {
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(12, calc(96 / 1920 * 100vw));
+  grid-template-rows: repeat(3, min-content);
+  justify-content: center;
+  column-gap: calc(32 / 1920 * 100vw);
+  aspect-ratio: 1920 / 992;
+  grid-template-areas:
+  "text-container text-container text-container text-container text-container text-container . . . . . .";
+  background: url("../../../assets/images/main-intro-background.png") no-repeat top center;
+  background-size: cover;
+}

@@ -1,0 +1,5 @@
+@media screen and (width <= 820px) {
+  .main-page .main-page__header-margin {
+    max-width: none;
+  }
+}

@@ -1,0 +1,11 @@
+.link_color_blue {
+  color: var(--color-blue);
+}
+
+.link_color_blue:hover {
+  color: var(--color-turquoise);
+}
+
+.link_color_blue:active {
+  color: var(--color-dark-blue);
+}

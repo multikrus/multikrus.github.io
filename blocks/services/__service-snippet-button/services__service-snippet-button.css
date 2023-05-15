@@ -1,9 +1,0 @@
-.services__service-snippet-button {
-  width: 24px;
-  aspect-ratio: 1;
-  margin: 0;
-  padding: 0;
-  border: none;
-  background: transparent url(../../../images/services-close-button.svg) center center no-repeat;
-  background-size: contain;
-}

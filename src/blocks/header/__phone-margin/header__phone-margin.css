@@ -1,0 +1,11 @@
+.header__phone-margin {
+  flex-grow: 0.2;
+  max-width: 24px;
+  min-width: 10px;
+}
+
+@media screen and (width <= 820px) {
+  .header__phone-margin {
+    display: none;
+  }
+}
