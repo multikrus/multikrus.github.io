@@ -68,6 +68,7 @@
 @import url("../blocks/burger-menu/__footer/burger-menu__footer.css");
 @import url("../blocks/burger-menu/__link/burger-menu__link.css");
 @import url("../blocks/burger-menu/__menu/burger-menu__menu.css");
+@import url("../blocks/burger-menu/__menu-item/burger-menu__menu-item.css");
 @import url("../blocks/section/section.css");
 @import url("../blocks/section/__button/section__button.css");
 @import url("../blocks/section/__button/_size/section__button_size_small.css");
