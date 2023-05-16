@@ -4,7 +4,7 @@
 @import url("../global-styles/global-styles.css");
 @import url("../vendor/normalize.css");
 @import url("../mixes/page/page.css");
-@import url("../mixes/page/_side-padding_regular/page_side-padding_regular.css");
+@import url("../mixes/page/_side-padding/page_side-padding_regular.css");
 @import url("../mixes/layout-3rows/layout-3rows.css");
 @import url("../mixes/layout-3rows/__row/_justify/layout-3rows__row_justify_center.css");
 @import url("../mixes/layout-3rows/__row/_no-shrink/layout-3rows__row_no-shrink.css");
