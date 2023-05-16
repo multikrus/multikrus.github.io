@@ -1,5 +1,5 @@
 @media screen and (width <= 820px) {
-  .main-page .main-page__header-letter {
+  .main-page .main-page__header-letter.header__letter {
     display: block;
     order: 5;
   }
