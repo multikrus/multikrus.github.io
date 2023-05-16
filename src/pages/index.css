@@ -64,11 +64,13 @@
 @import url("../blocks/icon/__background/_shape/icon__background_shape_circle.css");
 @import url("../blocks/icon/__background/_shape/icon__background_shape_rectangle.css");
 @import url("../blocks/burger-menu/burger-menu.css");
-@import url("../blocks/burger-menu/__h-line/burger-menu__h-line.css");
 @import url("../blocks/burger-menu/__footer/burger-menu__footer.css");
 @import url("../blocks/burger-menu/__link/burger-menu__link.css");
 @import url("../blocks/burger-menu/__menu/burger-menu__menu.css");
 @import url("../blocks/burger-menu/__menu-item/burger-menu__menu-item.css");
+@import url("../blocks/hr/hr.css");
+@import url("../blocks/hr/_no-margin/hr_no-margin.css");
+@import url("../blocks/hr/_color/hr_color_light-blue.css");
 @import url("../blocks/section/section.css");
 @import url("../blocks/section/__button/section__button.css");
 @import url("../blocks/section/__button/_size/section__button_size_small.css");
