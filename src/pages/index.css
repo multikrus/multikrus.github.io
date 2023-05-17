@@ -54,6 +54,10 @@
 @import url("../blocks/icon/icon.css");
 @import url("../blocks/icon/icons/__letter/icon__letter.css");
 @import url("../blocks/icon/icons/__burger/icon__burger.css");
+@import url("../blocks/icon/icons/__behance/icon__behance.css");
+@import url("../blocks/icon/icons/__dribbel/icon__dribbel.css");
+@import url("../blocks/icon/icons/__facebook/icon__facebook.css");
+@import url("../blocks/icon/icons/__instagram/icon__instagram.css");
 @import url("../blocks/icon/_size/icon_size_regular.css");
 @import url("../blocks/icon/_size/icon_size_large.css");
 @import url("../blocks/icon/_color/icon_color_black.css");
@@ -177,8 +181,7 @@
 @import url("../blocks/contact-form/__terms-and-conditions-text/contact-form__terms-and-conditions-text.css");
 @import url("../blocks/contact-form/__submit-button/contact-form__submit-button.css");
 @import url("../blocks/footer/footer.css");
-@import url("../blocks/footer/__grid-container/footer__grid-container.css");
-@import url("../blocks/footer/__nav-link/footer__nav-link.css");
-@import url("../blocks/footer/__nav-links/footer__nav-links.css");
-@import url("../blocks/footer/__nav-links-list/footer__nav-links-list.css");
-@import url("../blocks/footer/__social-links/footer__social-links.css");
+@import url("../blocks/footer/__caption/footer__caption.css");
+@import url("../blocks/footer/__menu/footer__menu.css");
+@import url("../blocks/footer/__menu-margin/footer__menu-margin.css");
+@import url("../blocks/footer/__social-icons/footer__social-icons.css");

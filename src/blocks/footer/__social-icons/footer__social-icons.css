@@ -1,0 +1,4 @@
+.footer__social-icons {
+  display: flex;
+  gap: 16px;
+}
