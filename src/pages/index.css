@@ -185,3 +185,5 @@
 @import url("../blocks/footer/__menu/footer__menu.css");
 @import url("../blocks/footer/__menu-margin/footer__menu-margin.css");
 @import url("../blocks/footer/__social-icons/footer__social-icons.css");
+@import url("../blocks/footer/__hr/footer_hr.css");
+@import url("../blocks/footer/__menu-gap/footer__menu-gap.css");

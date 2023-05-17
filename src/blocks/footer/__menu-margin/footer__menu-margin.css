@@ -3,3 +3,9 @@
   min-width: 24px;
   max-width: 40px;
 }
+
+@media screen and (width < 700px) {
+  .footer__menu-margin {
+    display: none;
+  }
+}

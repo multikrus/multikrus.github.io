@@ -2,3 +2,9 @@
   display: flex;
   gap: 16px;
 }
+
+@media screen and (width < 700px) {
+  .footer__social-icons {
+    order: 1;
+  }
+}

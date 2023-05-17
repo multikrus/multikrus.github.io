@@ -7,3 +7,12 @@
   padding-left: var(--page-side-padding);
   padding-right: var(--page-side-padding);
 }
+
+@media screen and (width < 700px) {
+  .footer {
+    flex-direction: column;
+    gap: 32px;
+    padding: 32px var(--page-side-padding);
+    height: auto;
+  }
+}
