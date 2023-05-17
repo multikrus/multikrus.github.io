@@ -1,9 +1,9 @@
-.header__burger {
+.header .header__burger {
   display: none;
 }
 
 @media screen and (width <= 820px) {
-  .header__burger {
+  .header .header__burger {
     display: block;
   }
 }

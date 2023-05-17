@@ -16,13 +16,13 @@
       z-index_position_relative
       z-index__main-context_level_10"
   >
-    <div class="header__burger main-page__header-burger icon icon_size_regular">
+    <a href="#" class="header__burger main-page__header-burger icon icon_size_regular">
       <div class="icon__background icon__background_shape_rectangle icon_size_regular"></div>
       <div class="icon__burger icon_mask icon_color_black"></div>
-    </div>
+    </a>
     <img class="header__logo main-page__header-logo" src="../assets/images/SpeadUp-logo.svg" alt="SpreadUp Logo">
     <div class="header__menu-margin main-page__header-margin main-page__header-margin_side_left"></div>
-    <div class="menu header__menu">
+    <div class="header__menu menu">
       <a class="text text_size_menu-link text_nowrap link link_color_black" href="#">Services</a>
       <div class="menu__gap"></div>
       <a class="text text_size_menu-link text_nowrap link link_color_black" href="#">Cases</a>
@@ -42,10 +42,10 @@
     >
       Write Us
     </button>
-    <div class="header__letter main-page__header-letter icon icon_size_regular">
+    <a href="#" class="header__letter main-page__header-letter icon icon_size_regular">
       <div class="icon__background icon__background_shape_rectangle icon_size_regular"></div>
       <div class="icon_letter icon_mask icon_color_blue"></div>
-    </div>
+    </a>
   </header>
 
 <!-- Выпадающее меню после клика на бургер-иконку -->
@@ -64,7 +64,7 @@
         <a class="burger-menu__link text text_nowrap link link_color_black" href="#">Contact us</a>
       </div>
     </div>
-    <hr class="burger-menu__h-line"/>
+    <hr class="hr hr_no-margin hr_color_light-blue"/>
     <div class="burger-menu__footer">
       <a class="text text_size_h5 text_nowrap link link_color_black" href="tel:+19164279719">
         +1 (916) 427 97 19
@@ -604,47 +604,38 @@
       </div>
     </section>
   </main>
-  <footer class="footer">
-    <div class="footer__grid-container">
-      <nav class="footer__nav-links" aria-label="Navigation links">
-        <ul class="footer__nav-links-list">
-          <li>
-            <a class="footer__nav-link" href="#">SpreadUp Internet Marketing Agency is a full-service digital marketing
-              agency.</a>
-          </li>
-          <li>
-            <a class="footer__nav-link" href="#">Terms of Use </a>
-          </li>
-          <li>
-            <a class="footer__nav-link" href="#">Privacy Policy</a>
-          </li>
-        </ul>
-      </nav>
-      <nav class="footer__social-links" aria-label="Social Media Links">
-        <ul class="footer__nav-links-list">
-          <li>
-            <a class="footer__social-link" href="#">
-              <img alt="Behance" class="footer__social-link-image" src="../assets/icons/footer-behance-icon.svg">
-            </a>
-          </li>
-          <li>
-            <a class="footer__social-link" href="#">
-              <img alt="Behance" class="footer__social-link-image" src="../assets/icons/footer-facebook-icon.svg">
-            </a>
-          </li>
-          <li>
-            <a class="footer__social-link" href="#">
-              <img alt="Behance" class="footer__social-link-image" src="../assets/icons/footer-instagram-icon.svg">
-            </a>
-          </li>
-          <li>
-            <a class="footer__social-link" href="#">
-              <img alt="Behance" class="footer__social-link-image" src="../assets/icons/footer-dribbel-incon.svg">
-            </a>
-          </li>
-        </ul>
-      </nav>
+
+<!-- Подвал -->
+  <footer class="footer layout-3rows__row_justify_center layout-3rows__row_no-shrink">
+    <div class="footer__caption text text_size_regular">
+      SpreadUp Internet Marketing Agency is a full-service digital marketing agency.
     </div>
+    <div class="footer__menu-margin"></div>
+    <div class="footer__menu menu">
+      <a class="text text_size_menu-link text_nowrap link link_color_grey" href="#">Terms of Use</a>
+      <div class="footer__menu-gap menu__gap"></div>
+      <a class="text text_size_menu-link text_nowrap link link_color_grey" href="#">Privacy Policy</a>
+    </div>
+    <div class="footer__menu-margin"></div>
+    <div class="footer__social-icons">
+      <a href="#" class="icon icon_size_regular">
+        <div class="icon__background icon__background_shape_circle icon_size_regular"></div>
+        <div class="icon__behance icon_mask icon_color_grey"></div>
+      </a>
+      <a href="#" class="icon icon_size_regular">
+        <div class="icon__background icon__background_shape_circle icon_size_regular"></div>
+        <div class="icon__facebook icon_mask icon_color_grey"></div>
+      </a>
+      <a href="#" class="icon icon_size_regular">
+        <div class="icon__background icon__background_shape_circle icon_size_regular"></div>
+        <div class="icon__instagram icon_mask icon_color_grey"></div>
+      </a>
+      <a href="#" class="icon icon_size_regular">
+        <div class="icon__background icon__background_shape_circle icon_size_regular"></div>
+        <div class="icon__dribbel icon_mask icon_color_grey"></div>
+      </a>
+    </div>
+    <hr class="footer_hr hr hr_no-margin hr_color_light-blue"/>
   </footer>
 </div>
 <script type="module" src="index.js"></script>

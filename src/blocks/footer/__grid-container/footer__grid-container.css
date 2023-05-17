@@ -1,6 +1,0 @@
-.footer__grid-container {
-  display: grid;
-  grid-template-columns: repeat(12, calc(96 / 1920 * 100vw));
-  grid-template-rows: repeat(1, min-content);
-  column-gap: calc(32 / 1920 * 100vw);
-}
