@@ -1,9 +1,0 @@
-.burger-menu__menu-item {
-  min-width: 134px;
-}
-
-@media screen and (width <= 374px) {
-  .burger-menu__menu-item {
-    min-width: 120px;
-  }
-}
