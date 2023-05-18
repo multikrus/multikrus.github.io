@@ -19,6 +19,7 @@
 @import url("../mixes/text/_size/text_size_large.css");
 @import url("../mixes/text/_size/text_size_extra-large.css");
 @import url("../mixes/text/_size/text_size_menu-link.css");
+@import url("../mixes/text/_size/text_size_menu-link-small.css");
 @import url("../mixes/text/_nowrap/text_nowrap.css");
 @import url("../mixes/link/link.css");
 @import url("../mixes/link/_color/link_color_black.css");
@@ -66,7 +67,6 @@
 @import url("../blocks/icon/__background/_shape/icon__background_shape_rectangle.css");
 @import url("../blocks/burger-menu/burger-menu.css");
 @import url("../blocks/burger-menu/__footer/burger-menu__footer.css");
-@import url("../blocks/burger-menu/__link/burger-menu__link.css");
 @import url("../blocks/burger-menu/__menu/burger-menu__menu.css");
 @import url("../blocks/burger-menu/__menu-item/burger-menu__menu-item.css");
 @import url("../blocks/hr/hr.css");
