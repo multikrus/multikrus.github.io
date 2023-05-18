@@ -48,9 +48,6 @@
 @import url("../blocks/header/__menu-margin/header__menu-margin.css");
 @import url("../blocks/header/__phone-margin/header__phone-margin.css");
 @import url("../blocks/header/_burger-menu/header_burger-menu_opened.css");
-@import url("../blocks/menu/menu.css");
-@import url("../blocks/menu/_multiline/menu_multiline.css");
-@import url("../blocks/menu/__gap/menu__gap.css");
 @import url("../blocks/icon/icon.css");
 @import url("../blocks/icon/icons/__letter/icon__letter.css");
 @import url("../blocks/icon/icons/__burger/icon__burger.css");
@@ -186,4 +183,3 @@
 @import url("../blocks/footer/__menu-margin/footer__menu-margin.css");
 @import url("../blocks/footer/__social-icons/footer__social-icons.css");
 @import url("../blocks/footer/__hr/footer_hr.css");
-@import url("../blocks/footer/__menu-gap/footer__menu-gap.css");

@@ -4,7 +4,7 @@
   min-width: 10px;
 }
 
-@media screen and (width <= 820px) {
+@media screen and (width <= 830px) {
   .header__phone-margin {
     display: none;
   }

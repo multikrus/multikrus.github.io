@@ -2,7 +2,7 @@
   display: none;
 }
 
-@media screen and (width <= 820px) {
+@media screen and (width <= 830px) {
   .header .header__burger {
     display: block;
   }
