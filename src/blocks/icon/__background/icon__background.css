@@ -5,7 +5,7 @@
   background-color: var(--color-blue);
   transform: scale(0);
   opacity: 0;
-  transition: transform var(--regular-animation), opacity var(--regular-animation);
+  transition: transform var(--animation-duration) ease-out, opacity var(--regular-animation);
 }
 
 .icon:hover .icon__background {
