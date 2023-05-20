@@ -9,9 +9,9 @@
 <body>
 <div class="main-page page layout-3rows">
 <!-- Шапка -->
-  <header
-    class="header
-      layout-3rows__row_justify_center
+  <header class="
+      header
+      layout-3rows_h-align_center
       layout-3rows__row_no-shrink
       z-index_position_relative
       z-index__main-context_level_10"
@@ -67,65 +67,84 @@
     </div>
   </div>
 
+  <div class="welcome-wrapper main-page__welcome-wrapper layout-3rows__row layout-3rows_v-align_top">
+    <!-- Блок с приветствием и кнопкой Get Started -->
+    <section class="welcome layout-3rows__row">
+      <div class="welcome__content layout-3rows__content layout-3rows_h-align_center">
+        <p class="welcome__caption-small text text_size_large text_no-margin">Welcome to Spread up</p>
+        <h1 class="welcome__caption-big welcome__caption-big_color_black text text_size_h1 text_no-margin">
+          Transparent and suitable service <span class="welcome__caption-big_color_blue">your business</span>
+        </h1>
+        <button class="welcome__button button button_size_regular button_color_blue text text_size_h5">
+          Get Started
+        </button>
+      </div>
+    </section>
+    <!-- Блок с 3-мя карточками -->
+    <section class="wlcm-cards">2</section>
+    <!-- Блок с текстом и иконкой Write Us -->
+    <section class="wlcm-email">3</section>
+  </div>
+
   <main class="main-content">
-    <section class="intro">
-      <div class="intro__text-container">
-        <p class="intro__welcome-text">Welcome to Spread up</p>
-        <h1 class="intro__title">Transparent and suitable service <span
-          class="section__text-decoration">your business</span></h1>
-        <button class="section__button">Get Started</button>
-      </div>
-    </section>
-    <section class="testimonials">
-      <div class="testimonials__grid-container">
-        <!--    TODO Доделать карточки и внести в них актуальный контент. Добавить ли тег article?-->
-        <ul class="cards-grid">
-          <li class="card">
-            <div class="card__title-and-icon-bundle">
-              <img alt="Transparency" class="card__icon" src="../assets/icons/main-testimonials-transparency-icon.svg">
-              <h3 class="card__title">Transparency</h3>
-            </div>
-            <p class="card__text">
-              We pride ourselves on providing complete transparency throughout the entire development process. From
-              estimates to deadlines and costs, we keep our clients informed every step of the way.
-            </p>
-          </li>
-          <li class="card">
-            <div class="card__title-and-icon-bundle">
-              <img alt="Transparency" class="card__icon" src="../assets/icons/main-testimonials-transparency-icon.svg">
-              <h3 class="card__title">Transparency</h3>
-            </div>
-            <p class="card__text">
-              Our team of experts boasts a wide range of skills, allowing us to tackle any project from landing pages to
-              mobile apps and CRM systems.
-            </p>
-          </li>
-          <li class="card">
-            <div class="card__title-and-icon-bundle">
-              <img alt="Transparency" class="card__icon" src="../assets/icons/main-testimonials-transparency-icon.svg">
-              <h3 class="card__title">Transparency</h3>
-            </div>
-            <p class="card__text">
-              With over 10 years of experience in custom IT development, we have the expertise to deliver exceptional
-              results for our clients.
-            </p>
-          </li>
-        </ul>
-        <div class="testimonial__call-to-action-bundle">
-          <p class="testimonial__text">
-            Choose <span class="section__text-decoration">Spread Up</span> for your next project and experience the best
-            web development services in the industry.
-          </p>
-          <button class="testimonials__button" type="button">
-            <img alt="Write Us" src="../assets/icons/testimonials-write-us-button-icon.svg">
-            <span class="testimonials__button-text">Write Us</span>
-          </button>
-        </div>
-      </div>
-      <div class="testimonials__background-text-container">
-        <p class="testimonials__background-text">creative studio</p>
-      </div>
-    </section>
+<!--    <section class="intro">-->
+<!--      <div class="intro__text-container">-->
+<!--        <p class="intro__welcome-text">Welcome to Spread up</p>-->
+<!--        <h1 class="intro__title">Transparent and suitable service <span-->
+<!--          class="section__text-decoration">your business</span></h1>-->
+<!--        <button class="section__button">Get Started</button>-->
+<!--      </div>-->
+<!--    </section>-->
+<!--    <section class="testimonials">-->
+<!--      <div class="testimonials__grid-container">-->
+<!--        &lt;!&ndash;    TODO Доделать карточки и внести в них актуальный контент. Добавить ли тег article?&ndash;&gt;-->
+<!--        <ul class="cards-grid">-->
+<!--          <li class="card">-->
+<!--            <div class="card__title-and-icon-bundle">-->
+<!--              <img alt="Transparency" class="card__icon" src="../assets/icons/main-testimonials-transparency-icon.svg">-->
+<!--              <h3 class="card__title">Transparency</h3>-->
+<!--            </div>-->
+<!--            <p class="card__text">-->
+<!--              We pride ourselves on providing complete transparency throughout the entire development process. From-->
+<!--              estimates to deadlines and costs, we keep our clients informed every step of the way.-->
+<!--            </p>-->
+<!--          </li>-->
+<!--          <li class="card">-->
+<!--            <div class="card__title-and-icon-bundle">-->
+<!--              <img alt="Transparency" class="card__icon" src="../assets/icons/main-testimonials-transparency-icon.svg">-->
+<!--              <h3 class="card__title">Transparency</h3>-->
+<!--            </div>-->
+<!--            <p class="card__text">-->
+<!--              Our team of experts boasts a wide range of skills, allowing us to tackle any project from landing pages to-->
+<!--              mobile apps and CRM systems.-->
+<!--            </p>-->
+<!--          </li>-->
+<!--          <li class="card">-->
+<!--            <div class="card__title-and-icon-bundle">-->
+<!--              <img alt="Transparency" class="card__icon" src="../assets/icons/main-testimonials-transparency-icon.svg">-->
+<!--              <h3 class="card__title">Transparency</h3>-->
+<!--            </div>-->
+<!--            <p class="card__text">-->
+<!--              With over 10 years of experience in custom IT development, we have the expertise to deliver exceptional-->
+<!--              results for our clients.-->
+<!--            </p>-->
+<!--          </li>-->
+<!--        </ul>-->
+<!--        <div class="testimonial__call-to-action-bundle">-->
+<!--          <p class="testimonial__text">-->
+<!--            Choose <span class="section__text-decoration">Spread Up</span> for your next project and experience the best-->
+<!--            web development services in the industry.-->
+<!--          </p>-->
+<!--          <button class="testimonials__button" type="button">-->
+<!--            <img alt="Write Us" src="../assets/icons/testimonials-write-us-button-icon.svg">-->
+<!--            <span class="testimonials__button-text">Write Us</span>-->
+<!--          </button>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      <div class="testimonials__background-text-container">-->
+<!--        <p class="testimonials__background-text">creative studio</p>-->
+<!--      </div>-->
+<!--    </section>-->
     <section class="services">
       <div class="services__grid-container">
         <h2 class="services__title">
@@ -595,7 +614,7 @@
   </main>
 
 <!-- Подвал -->
-  <footer class="footer layout-3rows__row_justify_center layout-3rows__row_no-shrink">
+  <footer class="footer layout-3rows_h-align_center layout-3rows__row_no-shrink">
     <div class="footer__caption text text_size_regular">
       SpreadUp Internet Marketing Agency is a full-service digital marketing agency.
     </div>

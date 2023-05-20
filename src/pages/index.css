@@ -4,10 +4,12 @@
 @import url("../global-styles/global-styles.css");
 @import url("../vendor/normalize.css");
 @import url("../mixes/page/page.css");
-@import url("../mixes/page/_side-padding/page_side-padding_regular.css");
 @import url("../mixes/layout-3rows/layout-3rows.css");
-@import url("../mixes/layout-3rows/__row/_justify/layout-3rows__row_justify_center.css");
+@import url("../mixes/layout-3rows/__row/layout-3rows__row.css");
+@import url("../mixes/layout-3rows/_h-align/layout-3rows_h-align_center.css");
 @import url("../mixes/layout-3rows/__row/_no-shrink/layout-3rows__row_no-shrink.css");
+@import url("../mixes/layout-3rows/_v-align/layout-3rows_v-align_top.css");
+@import url("../mixes/layout-3rows/__content/layout-3rows__content.css");
 @import url("../mixes/text/text.css");
 @import url("../mixes/text/_size/text_size_h1.css");
 @import url("../mixes/text/_size/text_size_h2.css");
@@ -21,6 +23,7 @@
 @import url("../mixes/text/_size/text_size_menu-link.css");
 @import url("../mixes/text/_size/text_size_menu-link-small.css");
 @import url("../mixes/text/_nowrap/text_nowrap.css");
+@import url("../mixes/text/_no-margin/text_no-margin.css");
 @import url("../mixes/link/link.css");
 @import url("../mixes/link/_color/link_color_black.css");
 @import url("../mixes/link/_color/link_color_blue.css");
@@ -39,6 +42,7 @@
 @import url("../blocks/main-page/__header-margin/_side/main-page__header-margin_side_left.css");
 @import url("../blocks/main-page/__header-margin/_side/main-page__header-margin_side_right.css");
 @import url("../blocks/main-page/__header-letter/main-page__header-letter.css");
+@import url("../blocks/main-page/__welcome-wrapper/main-page__welcome-wrapper.css");
 @import url("../blocks/header/header.css");
 @import url("../blocks/header/__phone/header__phone.css");
 @import url("../blocks/header/__menu/header__menu.css");
@@ -71,6 +75,16 @@
 @import url("../blocks/hr/hr.css");
 @import url("../blocks/hr/_no-margin/hr_no-margin.css");
 @import url("../blocks/hr/_color/hr_color_light-blue.css");
+@import url("../blocks/welcome-wrapper/welcome-wrapper.css");
+@import url("../blocks/welcome/welcome.css");
+@import url("../blocks/welcome/__content/welcome__content.css");
+@import url("../blocks/welcome/__caption-small/welcome__caption-small.css");
+@import url("../blocks/welcome/__caption-big/welcome__caption-big.css");
+@import url("../blocks/welcome/__caption-big/_color/welcome__caption-big_color_black.css");
+@import url("../blocks/welcome/__caption-big/_color/welcome__caption-big_color_blue.css");
+@import url("../blocks/welcome/__botton/welcome__button.css");
+@import url("../blocks/wlcm-cards/wlcm-cards.css");
+@import url("../blocks/wlcm-email/wlcm-email.css");
 @import url("../blocks/section/section.css");
 @import url("../blocks/section/__button/section__button.css");
 @import url("../blocks/section/__button/_size/section__button_size_small.css");

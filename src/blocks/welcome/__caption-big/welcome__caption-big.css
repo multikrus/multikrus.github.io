@@ -1,0 +1,4 @@
+.welcome .welcome__caption-big {
+  grid-area: caption-big;
+  margin-bottom: 56px;
+}

@@ -1,0 +1,5 @@
+.welcome .welcome__caption-small {
+  color: var(--color-blue);
+  grid-area: caption-small;
+  margin-bottom: 16px;
+}
