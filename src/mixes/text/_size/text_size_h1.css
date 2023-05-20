@@ -3,3 +3,23 @@
   font-size: 72px;
   line-height: 100%;
 }
+
+@media screen and (width < 1150px) {
+  .text_size_h1 {
+    font-size: 62px;
+  }
+}
+
+@media screen and (width < 970px) {
+  .text_size_h1 {
+    font-size: 50px;
+    line-height: 110%;
+  }
+}
+
+@media screen and (width < 760px) {
+  .text_size_h1 {
+    font-size: 32px;
+    line-height: 120%;
+  }
+}

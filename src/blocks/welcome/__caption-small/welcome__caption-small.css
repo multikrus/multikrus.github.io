@@ -3,3 +3,9 @@
   grid-area: caption-small;
   margin-bottom: 16px;
 }
+
+@media screen and (width < 760px) {
+  .welcome .welcome__caption-small {
+    margin-bottom: 0;
+  }
+}
