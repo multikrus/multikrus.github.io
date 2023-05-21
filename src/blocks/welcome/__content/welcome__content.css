@@ -1,0 +1,24 @@
+.welcome__content {
+  display: grid;
+  justify-items: start;
+  align-items: start;
+  grid-template:
+    ".             ." 282fr
+    "caption-small ." 46fr
+    "caption-big   ." 272fr
+    "button        ." 474fr
+    / 681fr 799fr; /* 1fr = 1px */
+}
+
+@media screen and (width < 760px) {
+  .welcome__content {
+    padding-top: 32px;
+    padding-bottom: 24px;
+    grid-template:
+      "caption-small" 32px
+      "caption-big  " 1fr
+      ".            " 300px
+      "button       " 63px
+    / 1fr;
+  }
+}

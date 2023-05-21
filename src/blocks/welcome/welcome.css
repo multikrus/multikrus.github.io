@@ -1,0 +1,44 @@
+.welcome {
+  background-image: image-set(
+    url("../../../assets/images/bg--blue-figures-on-white_large_1x.jpg") 1x,
+    url("../../../assets/images/bg--blue-figures-on-white_large_2x.jpg") 2x);
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 1074px;
+}
+
+@media screen and (width > 1920px) {
+  .welcome {
+    background-image: url("../../../assets/images/bg--blue-figures-on-white_large_2x.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+@media screen and (width < 1150px) {
+  .welcome {
+    background-image: image-set(
+        url("../../../assets/images/bg--blue-figures-on-white_medium-big_1x.jpg") 1x,
+        url("../../../assets/images/bg--blue-figures-on-white_medium-big_2x.jpg") 2x);
+    height: 873px;
+  }
+}
+
+@media screen and (width < 970px) {
+  .welcome {
+    background-image: image-set(
+        url("../../../assets/images/bg--blue-figures-on-white_medium-small_1x.jpg") 1x,
+        url("../../../assets/images/bg--blue-figures-on-white_medium-small_2x.jpg") 2x);
+    height: 673px;
+  }
+}
+
+@media screen and (width < 760px) {
+  .welcome {
+    background-image: image-set(
+        url("../../../assets/images/bg--blue-figures-on-white_small_1x.jpg") 1x,
+        url("../../../assets/images/bg--blue-figures-on-white_small_2x.jpg") 2x);
+    height: auto;
+    background-position: right bottom;
+  }
+}

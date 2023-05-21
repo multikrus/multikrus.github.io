@@ -1,0 +1,10 @@
+.welcome .welcome__caption-big {
+  grid-area: caption-big;
+  margin-bottom: 56px;
+}
+
+@media screen and (width < 760px) {
+  .welcome .welcome__caption-big {
+    margin-bottom: 0;
+  }
+}

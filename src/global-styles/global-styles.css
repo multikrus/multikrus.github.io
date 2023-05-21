@@ -33,7 +33,7 @@ html {
   --page-side-padding: 24px;
 }
 
-@media screen and (width <= 820px) {
+@media screen and (width <= 830px) {
   html {
     --header-height: 64px;
   }
