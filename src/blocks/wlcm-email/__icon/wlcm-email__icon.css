@@ -1,0 +1,6 @@
+@media screen and (width < 620px) {
+  .wlcm-email .wlcm-email__icon {
+    width: 88px;
+    height: 88px;
+  }
+}

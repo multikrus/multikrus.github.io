@@ -29,7 +29,7 @@ html {
   --regular-animation: var(--animation-duration) ease;
   --header-height: 82px;
   --content-max-width: 1504px;
-  --page-min-width: 360px;
+  --page-min-width: calc(360px - (100vw - 100%));
   --page-side-padding: 24px;
 }
 

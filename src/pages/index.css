@@ -88,6 +88,8 @@
 @import url("../blocks/wlcm-email/wlcm-email.css");
 @import url("../blocks/wlcm-email/__bg-caption/wlcm-email__bg-caption.css");
 @import url("../blocks/wlcm-email/__content/wlcm-email__content.css");
+@import url("../blocks/wlcm-email/__caption/wlcm-email__caption.css");
+@import url("../blocks/wlcm-email/__icon/wlcm-email__icon.css");
 @import url("../blocks/wlcm-cards/wlcm-cards.css");
 @import url("../blocks/write-us/write-us.css");
 @import url("../blocks/write-us/__icon/write-us__icon.css");
