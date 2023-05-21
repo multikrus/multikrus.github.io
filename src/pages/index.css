@@ -48,7 +48,7 @@
 @import url("../blocks/header/__logo/header__logo.css");
 @import url("../blocks/header/__burger/header__burger.css");
 @import url("../blocks/header/__letter/header__letter.css");
-@import url("../blocks/header/__write-us-btn/header__write-us-btn.css");
+@import url("../blocks/header/__button/header__button.css");
 @import url("../blocks/header/__menu-margin/header__menu-margin.css");
 @import url("../blocks/header/__phone-margin/header__phone-margin.css");
 @import url("../blocks/header/_burger-menu/header_burger-menu_opened.css");
