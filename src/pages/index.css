@@ -21,6 +21,9 @@
 @import url("../mixes/text/_size/text_size_extra-large.css");
 @import url("../mixes/text/_size/text_size_menu-link.css");
 @import url("../mixes/text/_size/text_size_menu-link-small.css");
+@import url("../mixes/text/_color/text_color_black.css");
+@import url("../mixes/text/_color/text_color_blue.css");
+@import url("../mixes/text/_color/text_color_white.css");
 @import url("../mixes/text/_nowrap/text_nowrap.css");
 @import url("../mixes/text/_no-margin/text_no-margin.css");
 @import url("../mixes/link/link.css");
@@ -84,8 +87,14 @@
 @import url("../blocks/welcome/__caption-big/_color/welcome__caption-big_color_black.css");
 @import url("../blocks/welcome/__caption-big/_color/welcome__caption-big_color_blue.css");
 @import url("../blocks/welcome/__botton/welcome__button.css");
-@import url("../blocks/wlcm-cards/wlcm-cards.css");
 @import url("../blocks/wlcm-email/wlcm-email.css");
+@import url("../blocks/wlcm-email/__bg-caption/wlcm-email__bg-caption.css");
+@import url("../blocks/wlcm-email/__content/wlcm-email__content.css");
+@import url("../blocks/wlcm-cards/wlcm-cards.css");
+@import url("../blocks/write-us/write-us.css");
+@import url("../blocks/write-us/__icon/write-us__icon.css");
+@import url("../blocks/write-us/__label/write-us__label.css");
+@import url("../blocks/write-us/__letter/write-us__letter.css");
 @import url("../blocks/section/section.css");
 @import url("../blocks/section/__button/section__button.css");
 @import url("../blocks/section/__button/_size/section__button_size_small.css");

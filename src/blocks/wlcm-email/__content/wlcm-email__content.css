@@ -1,0 +1,12 @@
+.wlcm-email__content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: clamp(32px, 2.0833vw, 40px); /* 2.0833vw = 40 * 100 / 1920 */
+
+  /* 10.4166vw = 200 * 100 / 1920
+     24.1666vw = 464 * 100 / 1920
+     6.25vw = 120 * 100 / 1920
+   */
+  padding: clamp(32px, 10.4166vw, 200px) clamp(32px, 24.1666vw, 464px) clamp(30px, 6.25vw, 120px);
+}
