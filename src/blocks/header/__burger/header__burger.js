@@ -4,7 +4,7 @@ export default function addListener2BurgerIcon() {
     const burgerIcon = document.querySelector(".header__burger");
     const burgerMenu = document.querySelector(".burger-menu");
     const header = document.querySelector(".header");
-    const headerMenu = header.querySelector(".header__menu");
+    const headerMenu = header ? header.querySelector(".header__menu") : undefined;
     const html = document.querySelector("html");
 
     if (!(burgerIcon || burgerMenu || header || headerMenu)) {
