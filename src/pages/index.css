@@ -84,8 +84,6 @@
 @import url("../blocks/welcome/__content/welcome__content.css");
 @import url("../blocks/welcome/__caption-small/welcome__caption-small.css");
 @import url("../blocks/welcome/__caption-big/welcome__caption-big.css");
-@import url("../blocks/welcome/__caption-big/_color/welcome__caption-big_color_black.css");
-@import url("../blocks/welcome/__caption-big/_color/welcome__caption-big_color_blue.css");
 @import url("../blocks/welcome/__botton/welcome__button.css");
 @import url("../blocks/wlcm-email/wlcm-email.css");
 @import url("../blocks/wlcm-email/__bg-caption/wlcm-email__bg-caption.css");
