@@ -1,11 +1,7 @@
 .footer {
-  max-width: calc(var(--content-max-width) + var(--page-side-padding) * 2);
   height: 144px;
   display: flex;
-  width: 100%;
   align-items: center;
-  padding-left: var(--page-side-padding);
-  padding-right: var(--page-side-padding);
 }
 
 @media screen and (width < 700px) {

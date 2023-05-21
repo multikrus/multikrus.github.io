@@ -5,9 +5,8 @@
 @import url("../vendor/normalize.css");
 @import url("../mixes/page/page.css");
 @import url("../mixes/layout-3rows/layout-3rows.css");
-@import url("../mixes/layout-3rows/__row/layout-3rows__row.css");
 @import url("../mixes/layout-3rows/_h-align/layout-3rows_h-align_center.css");
-@import url("../mixes/layout-3rows/__row/_no-shrink/layout-3rows__row_no-shrink.css");
+@import url("../mixes/layout-3rows/_no-shrink/layout-3rows_no-shrink.css");
 @import url("../mixes/layout-3rows/_v-align/layout-3rows_v-align_top.css");
 @import url("../mixes/layout-3rows/__content/layout-3rows__content.css");
 @import url("../mixes/text/text.css");

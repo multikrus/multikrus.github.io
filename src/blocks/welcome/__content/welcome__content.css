@@ -1,4 +1,5 @@
 .welcome__content {
+  height: inherit;
   display: grid;
   justify-items: start;
   align-items: start;
