@@ -85,8 +85,10 @@
 @import url("../blocks/hr/_no-margin/hr_no-margin.css");
 @import url("../blocks/hr/_color/hr_color_light-blue.css");
 @import url("../blocks/write-us-and-cards/write-us-and-cards.css");
-@import url("../blocks/write-us-and-cards/__write-us/write-us-and-cards__write-us.css");
+@import url("../blocks/write-us-and-cards/write-us-and-cards-queries.css");
+@import url("../blocks/write-us-and-cards/__write-us/write-us-and-cards__write-us-queries.css");
 @import url("../blocks/write-us-and-cards/__cards/write-us-and-cards__cards.css");
+@import url("../blocks/write-us-and-cards/__cards/write-us-and-cards__cards-queries.css");
 @import url("../blocks/welcome/welcome.css");
 @import url("../blocks/welcome/welcome-queries.css");
 @import url("../blocks/welcome/__content/welcome__content.css");

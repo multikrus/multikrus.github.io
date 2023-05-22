@@ -1,11 +1,3 @@
 .write-us-and-cards {
   position: relative;
 }
-
-@media screen and (width <= 946px) {
-  .write-us-and-cards {
-    position: static;
-    display: flex;
-    flex-direction: column;
-  }
-}
