@@ -88,10 +88,15 @@
 @import url("../blocks/write-us-and-cards/__write-us/write-us-and-cards__write-us.css");
 @import url("../blocks/write-us-and-cards/__cards/write-us-and-cards__cards.css");
 @import url("../blocks/welcome/welcome.css");
+@import url("../blocks/welcome/welcome-queries.css");
 @import url("../blocks/welcome/__content/welcome__content.css");
+@import url("../blocks/welcome/__content/welcome__content-queries.css");
 @import url("../blocks/welcome/__caption-small/welcome__caption-small.css");
+@import url("../blocks/welcome/__caption-small/welcome__caption-small-queries.css");
 @import url("../blocks/welcome/__caption-big/welcome__caption-big.css");
+@import url("../blocks/welcome/__caption-big/welcome__caption-big-queries.css");
 @import url("../blocks/welcome/__botton/welcome__button.css");
+@import url("../blocks/welcome/__botton/welcome__button-queries.css");
 @import url("../blocks/wlcm-write-us/wlcm-write-us.css");
 @import url("../blocks/wlcm-write-us/__bg-caption/wlcm-write-us__bg-caption.css");
 @import url("../blocks/wlcm-write-us/__content/wlcm-write-us__content.css");

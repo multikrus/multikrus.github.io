@@ -1,0 +1,12 @@
+@media screen and (width <= 760px) {
+  .welcome__content.welcome__content-queries {
+    padding-top: 32px;
+    padding-bottom: 24px;
+    grid-template:
+      "caption-small" 32px
+      "caption-big  " 1fr
+      ".            " 300px
+      "button       " 63px
+    / 1fr;
+  }
+}
