@@ -1,0 +1,9 @@
+@media screen and (width <= 700px) {
+  .footer__menu.footer__menu-queries {
+    order: 2;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: clamp(16px, 12.8%, 48px);
+  }
+}

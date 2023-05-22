@@ -214,8 +214,14 @@
 @import url("../blocks/contact-form/__terms-and-conditions-text/contact-form__terms-and-conditions-text.css");
 @import url("../blocks/contact-form/__submit-button/contact-form__submit-button.css");
 @import url("../blocks/footer/footer.css");
+@import url("../blocks/footer/footer-queries.css");
 @import url("../blocks/footer/__caption/footer__caption.css");
+@import url("../blocks/footer/__caption/footer__caption-queries.css");
 @import url("../blocks/footer/__menu/footer__menu.css");
+@import url("../blocks/footer/__menu/footer__menu-queries.css");
 @import url("../blocks/footer/__menu-margin/footer__menu-margin.css");
+@import url("../blocks/footer/__menu-margin/footer__menu-margin-queries.css");
 @import url("../blocks/footer/__social-icons/footer__social-icons.css");
+@import url("../blocks/footer/__social-icons/footer__social-icons-queries.css");
 @import url("../blocks/footer/__hr/footer_hr.css");
+@import url("../blocks/footer/__hr/footer_hr-queries.css");

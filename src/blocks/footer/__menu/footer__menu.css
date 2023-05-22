@@ -3,13 +3,3 @@
   flex-grow: 1;
   gap: clamp(16px, 2.0833vw, 40px); /* 2.0833 = 40 * 100 / 1920 */
 }
-
-@media screen and (width <= 700px) {
-  .footer__menu {
-    order: 2;
-    width: 100%;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: clamp(16px, 12.8%, 48px);
-  }
-}

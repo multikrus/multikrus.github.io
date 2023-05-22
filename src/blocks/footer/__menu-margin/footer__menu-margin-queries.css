@@ -1,0 +1,5 @@
+@media screen and (width <= 700px) {
+  .footer__menu-margin.footer__menu-margin-queries {
+    display: none;
+  }
+}

@@ -1,0 +1,8 @@
+@media screen and (width <= 700px) {
+  .footer_hr.footer_hr-queries {
+    display: block;
+    order: 3;
+    margin-left: calc(0 - var(--page-side-padding));
+    width: calc(100% + var(--page-side-padding) * 2);
+  }
+}
