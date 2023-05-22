@@ -1,8 +1,0 @@
-.testimonial__call-to-action-bundle {
-  grid-area: call-to-action-bundle;
-  display: flex;
-  flex-direction: column;
-  align-content: flex-start;
-  align-items: flex-start;
-  row-gap: 40px;
-}
