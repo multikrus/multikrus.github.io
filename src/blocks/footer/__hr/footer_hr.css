@@ -2,7 +2,7 @@
   display: none;
 }
 
-@media screen and (width < 700px) {
+@media screen and (width <= 700px) {
   .footer_hr {
     display: block;
     order: 3;

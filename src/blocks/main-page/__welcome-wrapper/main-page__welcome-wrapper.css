@@ -2,7 +2,7 @@
   margin-top: calc(0px - var(--header-height));
 }
 
-@media screen and (width < 830px) {
+@media screen and (width <= 830px) {
   .main-page__welcome-wrapper {
     margin-top: 0;
   }

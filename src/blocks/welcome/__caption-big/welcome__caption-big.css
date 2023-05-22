@@ -3,20 +3,20 @@
   margin-bottom: 56px;
 }
 
-@media screen and (width < 1150px) {
+@media screen and (width <= 1150px) {
   .welcome .welcome__caption-big {
     font-size: 62px;
   }
 }
 
-@media screen and (width < 970px) {
+@media screen and (width <= 970px) {
   .welcome .welcome__caption-big {
     font-size: 50px;
     line-height: 110%;
   }
 }
 
-@media screen and (width < 760px) {
+@media screen and (width <= 760px) {
   .welcome .welcome__caption-big {
     font-size: 32px;
     line-height: 120%;

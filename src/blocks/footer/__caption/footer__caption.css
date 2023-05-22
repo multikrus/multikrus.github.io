@@ -2,7 +2,7 @@
   color: var(--color-dark-grey);
 }
 
-@media screen and (width < 700px) {
+@media screen and (width <= 700px) {
   .footer__caption {
     order: 4;
     text-align: center;

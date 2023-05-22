@@ -2,7 +2,7 @@
   grid-area: button;
 }
 
-@media screen and (width < 760px) {
+@media screen and (width <= 760px) {
   .welcome__button {
     max-width: 360px;
     width: 100%;

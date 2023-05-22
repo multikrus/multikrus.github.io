@@ -11,7 +11,7 @@
     / 681fr 799fr; /* 1fr = 1px */
 }
 
-@media screen and (width < 760px) {
+@media screen and (width <= 760px) {
   .welcome__content {
     padding-top: 32px;
     padding-bottom: 24px;

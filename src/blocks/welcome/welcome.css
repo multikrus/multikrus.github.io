@@ -15,7 +15,7 @@
   }
 }
 
-@media screen and (width < 1150px) {
+@media screen and (width <= 1150px) {
   .welcome {
     background-image: image-set(
         url("../../../assets/images/bg--blue-figures-on-white_medium-big_1x.jpg") 1x,
@@ -24,7 +24,7 @@
   }
 }
 
-@media screen and (width < 970px) {
+@media screen and (width <= 970px) {
   .welcome {
     background-image: image-set(
         url("../../../assets/images/bg--blue-figures-on-white_medium-small_1x.jpg") 1x,
@@ -33,7 +33,7 @@
   }
 }
 
-@media screen and (width < 760px) {
+@media screen and (width <= 760px) {
   .welcome {
     background-image: image-set(
         url("../../../assets/images/bg--blue-figures-on-white_small_1x.jpg") 1x,
