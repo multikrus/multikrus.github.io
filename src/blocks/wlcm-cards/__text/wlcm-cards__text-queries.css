@@ -1,5 +1,5 @@
 @media screen and (width <= 1080px) {
-  .wlcm-cards .wlcm-cards__text {
+  .wlcm-cards .wlcm-cards__text-queries {
     font-size: 14px;
   }
 }

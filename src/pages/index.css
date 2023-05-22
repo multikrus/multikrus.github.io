@@ -107,11 +107,13 @@
 @import url("../blocks/wlcm-write-us/__caption/wlcm-write-us__caption-queries.css");
 @import url("../blocks/wlcm-write-us/__icon/wlcm-write-us__icon-queries.css");
 @import url("../blocks/wlcm-cards/wlcm-cards.css");
+@import url("../blocks/wlcm-cards/wlcm-cards-queries.css");
 @import url("../blocks/wlcm-cards/__card/wlcm-cards__card.css");
+@import url("../blocks/wlcm-cards/__card/wlcm-cards__card-queries.css");
 @import url("../blocks/wlcm-cards/__title-container/wlcm-cards__title-container.css");
-@import url("../blocks/wlcm-cards/__icon/wlcm-cards__icon.css");
-@import url("../blocks/wlcm-cards/__title/wlcm-cards__title.css");
-@import url("../blocks/wlcm-cards/__text/wlcm-cards__text.css");
+@import url("../blocks/wlcm-cards/__icon/wlcm-cards__icon-queries.css");
+@import url("../blocks/wlcm-cards/__title/wlcm-cards__title-queries.css");
+@import url("../blocks/wlcm-cards/__text/wlcm-cards__text-queries.css");
 @import url("../blocks/write-us/write-us.css");
 @import url("../blocks/write-us/__icon/write-us__icon.css");
 @import url("../blocks/write-us/__label/write-us__label.css");

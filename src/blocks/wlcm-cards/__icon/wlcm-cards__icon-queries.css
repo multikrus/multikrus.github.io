@@ -1,5 +1,5 @@
 @media screen and (width <= 1080px) {
-  .wlcm-cards__icon {
+  .wlcm-cards__icon-queries {
     width: 24px;
     height: 24px;
   }
