@@ -1,0 +1,22 @@
+.welcome-wrapper__wlcm-cards {
+  position: absolute;
+  top: -120px; /* 120 = половина высоты карточки */
+}
+
+@media screen and (width <= 1566px) {
+  .welcome-wrapper__wlcm-cards {
+    top: -135px; /* 135 = половина высоты карточки */
+  }
+}
+
+@media screen and (width <= 1340px) {
+  .welcome-wrapper__wlcm-cards {
+    top: -160px; /* 160 = половина высоты карточки */
+  }
+}
+
+@media screen and (width <= 1080px) {
+  .welcome-wrapper__wlcm-cards {
+    top: -130px; /* 130 = половина высоты карточки */
+  }
+}

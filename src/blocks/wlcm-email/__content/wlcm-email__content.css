@@ -4,17 +4,35 @@
   flex-direction: column;
   gap: clamp(32px, 2.0833vw, 40px); /* 2.0833vw = 40 * 100 / 1920 */
 
-  /* 10.4166vw = 200 * 100 / 1920
+  /* 200px = 120 (половина высоты карточки) + 80 (отступ от карточки до надписи)
      24.1666vw = 464 * 100 / 1920
      6.25vw = 120 * 100 / 1920
    */
-  padding: clamp(32px, 10.4166vw, 200px) clamp(32px, 24.1666vw, 464px) clamp(30px, 6.25vw, 120px);
+  padding: 200px clamp(32px, 24.1666vw, 464px) clamp(30px, 6.25vw, 120px);
+}
+
+@media screen and (width <= 1566px) {
+  .wlcm-email__content {
+    padding-top: 215px; /* 215px = 135 (половина высоты карточки) + 80 (отступ от карточки до надписи) */
+  }
+}
+
+@media screen and (width <= 1340px) {
+  .wlcm-email__content {
+    padding-top: 240px; /* 240px = 160 (половина высоты карточки) + 80 (отступ от карточки до надписи) */
+  }
 }
 
 @media screen and (width < 1150px) {
   .wlcm-email__content {
     padding-left: clamp(32px, 18.2292vw, 464px); /* 18.2292vw = 350 * 100 / 1920 */
     padding-right: clamp(32px, 18.2292vw, 464px); /* 18.2292vw = 350 * 100 / 1920 */
+  }
+}
+
+@media screen and (width <= 1080px) {
+  .wlcm-email__content {
+    padding-top: 210px; /* 260px = 130 (половина высоты карточки) + 80 (отступ от карточки до надписи) */
   }
 }
 

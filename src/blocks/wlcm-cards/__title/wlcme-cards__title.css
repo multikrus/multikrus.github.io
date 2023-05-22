@@ -1,0 +1,5 @@
+@media screen and (width <= 1080px) {
+  .wlcme-cards .wlcme-cards__title {
+    font-size: 18px;
+  }
+}
