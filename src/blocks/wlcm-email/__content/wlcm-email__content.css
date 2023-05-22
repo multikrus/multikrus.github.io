@@ -13,7 +13,7 @@
 
 @media screen and (width <= 1566px) {
   .wlcm-email__content {
-    padding-top: 215px; /* 215px = 135 (половина высоты карточки) + 80 (отступ от карточки до надписи) */
+    padding-top: 225px; /* 225px = 145 (половина высоты карточки) + 80 (отступ от карточки до надписи) */
   }
 }
 
@@ -32,7 +32,13 @@
 
 @media screen and (width <= 1080px) {
   .wlcm-email__content {
-    padding-top: 210px; /* 260px = 130 (половина высоты карточки) + 80 (отступ от карточки до надписи) */
+    padding-top: 190px; /* 190px = 110 (половина высоты карточки) + 80 (отступ от карточки до надписи) */
+  }
+}
+
+@media screen and (width <= 946px) {
+  .wlcm-email__content {
+    padding-top: clamp(32px, 6.25vw, 120px); /* 6.25vw = 120 * 100 / 1920 */
   }
 }
 

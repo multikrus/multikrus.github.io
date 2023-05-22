@@ -1,3 +1,4 @@
 .wlcm-email {
   background-color: var(--color-light-grey);
+  position: relative;
 }

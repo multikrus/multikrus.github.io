@@ -82,6 +82,7 @@
 @import url("../blocks/welcome-wrapper/welcome-wrapper.css");
 @import url("../blocks/welcome-wrapper/__wlcm-email/welcome-wrapper__wlcm-email.css");
 @import url("../blocks/welcome-wrapper/__wlcm-cards/welcome-wrapper__wlcm-cards.css");
+@import url("../blocks/welcome-wrapper/__email-and-cards-container/welcome-wrapper__email-and-cards-container.css");
 @import url("../blocks/welcome/welcome.css");
 @import url("../blocks/welcome/__content/welcome__content.css");
 @import url("../blocks/welcome/__caption-small/welcome__caption-small.css");
@@ -93,11 +94,11 @@
 @import url("../blocks/wlcm-email/__caption/wlcm-email__caption.css");
 @import url("../blocks/wlcm-email/__icon/wlcm-email__icon.css");
 @import url("../blocks/wlcm-cards/wlcm-cards.css");
-@import url("../blocks/wlcm-cards/__card/wlcme-cards__card.css");
-@import url("../blocks/wlcm-cards/__title-container/wlcme-cards__title-container.css");
-@import url("../blocks/wlcm-cards/__icon/wlcme-cards__icon.css");
-@import url("../blocks/wlcm-cards/__title/wlcme-cards__title.css");
-@import url("../blocks/wlcm-cards/__text/wlcme-cards__text.css");
+@import url("../blocks/wlcm-cards/__card/wlcm-cards__card.css");
+@import url("../blocks/wlcm-cards/__title-container/wlcm-cards__title-container.css");
+@import url("../blocks/wlcm-cards/__icon/wlcm-cards__icon.css");
+@import url("../blocks/wlcm-cards/__title/wlcm-cards__title.css");
+@import url("../blocks/wlcm-cards/__text/wlcm-cards__text.css");
 @import url("../blocks/write-us/write-us.css");
 @import url("../blocks/write-us/__icon/write-us__icon.css");
 @import url("../blocks/write-us/__label/write-us__label.css");

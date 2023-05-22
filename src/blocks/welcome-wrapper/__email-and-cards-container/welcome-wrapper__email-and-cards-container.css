@@ -1,0 +1,11 @@
+.welcome-wrapper__email-and-cards-container {
+  position: relative;
+}
+
+@media screen and (width <= 946px) {
+  .welcome-wrapper__email-and-cards-container {
+    position: static;
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,3 +1,5 @@
-.welcome-wrapper__wlcm-email {
-  position: relative;
+@media screen and (width <= 946px) {
+  .welcome-wrapper__wlcm-email {
+    order: 2;
+  }
 }

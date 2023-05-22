@@ -5,7 +5,7 @@
 
 @media screen and (width <= 1566px) {
   .welcome-wrapper__wlcm-cards {
-    top: -135px; /* 135 = половина высоты карточки */
+    top: -145px; /* 145 = половина высоты карточки */
   }
 }
 
@@ -17,6 +17,17 @@
 
 @media screen and (width <= 1080px) {
   .welcome-wrapper__wlcm-cards {
-    top: -130px; /* 130 = половина высоты карточки */
+    top: -110px; /* 110 = половина высоты карточки */
+  }
+}
+
+@media screen and (width <= 946px) {
+  .welcome-wrapper .welcome-wrapper__wlcm-cards {
+    position: static;
+    order: 1;
+    flex-direction: column;
+    gap: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
   }
 }
