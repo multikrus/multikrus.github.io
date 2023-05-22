@@ -1,5 +1,5 @@
 @media screen and (width <= 830px) {
-  .header__phone {
+  .header__button-queries {
     display: none;
   }
 }

@@ -4,11 +4,3 @@
   align-items: center;
   transition: background-color var(--regular-animation);
 }
-
-@media screen and (width <= 830px) {
-  header.header {
-    padding-left: calc(var(--page-side-padding) / 2);
-    padding-right: calc(var(--page-side-padding) / 2);
-    background-color: var(--color-white);
-  }
-}

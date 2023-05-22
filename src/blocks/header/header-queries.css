@@ -1,0 +1,7 @@
+@media screen and (width <= 830px) {
+  .header.header-queries {
+    padding-left: calc(var(--page-side-padding) / 2);
+    padding-right: calc(var(--page-side-padding) / 2);
+    background-color: var(--color-white);
+  }
+}
