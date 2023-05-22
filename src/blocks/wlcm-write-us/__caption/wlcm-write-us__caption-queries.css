@@ -1,0 +1,12 @@
+@media screen and (width <= 1150px) {
+  .wlcm-write-us__caption-queries {
+    font-size: 36px;
+  }
+}
+
+@media screen and (width <= 620px) {
+  .wlcm-write-us__caption-queries {
+    font-size: 24px;
+    line-height: 29px;
+  }
+}

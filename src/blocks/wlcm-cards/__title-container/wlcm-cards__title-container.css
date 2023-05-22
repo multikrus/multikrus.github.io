@@ -1,0 +1,5 @@
+.wlcm-cards__title-container {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}

@@ -1,0 +1,15 @@
+.wlcm-write-us__bg-caption {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  font-weight: 900;
+  font-size: clamp(228px, 20.2083vw, 388px); /* 20.2083vw = 388 * 100 / 1920 */
+  line-height: 120%;
+  user-select: none;
+  text-shadow: 0 0 36px rgb(231 237 246 / 40%);
+}

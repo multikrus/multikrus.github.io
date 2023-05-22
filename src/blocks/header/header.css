@@ -1,18 +1,6 @@
 .header {
   display: flex;
-  max-width: calc(var(--content-max-width) + var(--page-side-padding) * 2);
-  width: 100%;
   height: var(--header-height);
   align-items: center;
-  padding-left: var(--page-side-padding);
-  padding-right: var(--page-side-padding);
   transition: background-color var(--regular-animation);
-}
-
-@media screen and (width <= 830px) {
-  .header {
-    padding-left: calc(var(--page-side-padding) / 2);
-    padding-right: calc(var(--page-side-padding) / 2);
-    background-color: var(--color-white);
-  }
 }

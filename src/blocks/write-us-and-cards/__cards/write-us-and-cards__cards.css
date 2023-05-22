@@ -1,0 +1,4 @@
+.write-us-and-cards__cards {
+  position: absolute;
+  top: -120px; /* 120 = половина высоты карточки */
+}

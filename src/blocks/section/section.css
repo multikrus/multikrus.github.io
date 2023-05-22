@@ -1,8 +1,0 @@
-.section {
-  width: 100%;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(12, 96px);
-  justify-content: center;
-  column-gap: 32px;
-}

@@ -3,9 +3,3 @@
   flex-grow: 5;
   gap: clamp(16px, 2.0833vw, 40px); /* 2.0833 = 40 * 100 / 1920 */
 }
-
-@media screen and (width <= 830px) {
-  .header__menu {
-    display: none;
-  }
-}

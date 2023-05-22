@@ -1,0 +1,6 @@
+@media screen and (width <= 700px) {
+  .footer.footer-queries {
+    flex-direction: column;
+    gap: 32px;
+  }
+}

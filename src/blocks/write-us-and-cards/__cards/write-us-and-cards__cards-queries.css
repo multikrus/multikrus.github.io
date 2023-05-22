@@ -1,0 +1,28 @@
+@media screen and (width <= 1566px) {
+  .write-us-and-cards__cards.write-us-and-cards__cards-queries {
+    top: -145px; /* 145 = половина высоты карточки */
+  }
+}
+
+@media screen and (width <= 1340px) {
+  .write-us-and-cards__cards.write-us-and-cards__cards-queries {
+    top: -160px; /* 160 = половина высоты карточки */
+  }
+}
+
+@media screen and (width <= 1080px) {
+  .write-us-and-cards__cards.write-us-and-cards__cards-queries {
+    top: -110px; /* 110 = половина высоты карточки */
+  }
+}
+
+@media screen and (width <= 946px) {
+  .write-us-and-cards__cards.write-us-and-cards__cards-queries {
+    position: static;
+    order: 1;
+    flex-direction: column;
+    gap: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+}

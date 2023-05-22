@@ -1,0 +1,7 @@
+@media screen and (width <= 1080px) {
+  .wlcm-cards.wlcm-cards-queries {
+    gap: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}

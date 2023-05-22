@@ -1,0 +1,5 @@
+@media screen and (width <= 830px) {
+  .header__menu.header__menu-queries {
+    display: none;
+  }
+}

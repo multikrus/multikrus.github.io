@@ -1,0 +1,9 @@
+.wlcm-cards__card {
+  width: 480px;
+  height: 240px;
+  background-color: var(--color-white);
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}

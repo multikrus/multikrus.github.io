@@ -1,0 +1,11 @@
+.write-us__label {
+  color: var(--color-black);
+}
+
+.write-us:hover .write-us__label {
+  color: var(--color-blue);
+}
+
+.write-us:active .write-us__label {
+  color: var(--color-dark-blue);
+}

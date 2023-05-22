@@ -1,0 +1,7 @@
+@media screen and (width <= 946px) {
+  .write-us-and-cards.write-us-and-cards-queries {
+    position: static;
+    display: flex;
+    flex-direction: column;
+  }
+}

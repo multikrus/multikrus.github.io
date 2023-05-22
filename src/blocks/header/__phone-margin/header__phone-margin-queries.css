@@ -1,0 +1,5 @@
+@media screen and (width <= 830px) {
+  .header__phone-margin.header__phone-margin-queries {
+    display: none;
+  }
+}

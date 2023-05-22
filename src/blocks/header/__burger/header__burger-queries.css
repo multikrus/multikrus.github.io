@@ -1,0 +1,5 @@
+@media screen and (width <= 830px) {
+  .header__burger.header__burger-queries {
+    display: block;
+  }
+}

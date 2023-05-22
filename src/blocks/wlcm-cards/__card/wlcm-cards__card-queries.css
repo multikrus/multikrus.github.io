@@ -1,0 +1,35 @@
+@media screen and (width <= 1566px) {
+  .wlcm-cards__card.wlcm-cards__card-queries {
+    width: 400px;
+    height: 290px;
+  }
+}
+
+@media screen and (width <= 1340px) {
+  .wlcm-cards__card.wlcm-cards__card-queries {
+    width: 320px;
+    height: 320px;
+  }
+}
+
+@media screen and (width <= 1080px) {
+  .wlcm-cards__card.wlcm-cards__card-queries {
+    width: 280px;
+    height: 220px;
+    padding: 24px;
+    gap: 16px;
+  }
+}
+
+@media screen and (width <= 946px) {
+  .wlcm-cards__card.wlcm-cards__card-queries {
+    width: auto;
+    height: auto;
+    padding: 24px 0;
+    gap: 16px;
+  }
+
+  .wlcm-cards__card.wlcm-cards__card-queries:not(:last-child) {
+    border-bottom: 1px solid var(--color-light-blue);
+  }
+}
