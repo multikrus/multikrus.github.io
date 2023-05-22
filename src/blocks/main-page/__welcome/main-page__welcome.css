@@ -1,9 +1,9 @@
-.main-page__welcome-wrapper {
+.main-page__welcome {
   margin-top: calc(0px - var(--header-height));
 }
 
 @media screen and (width <= 830px) {
-  .main-page__welcome-wrapper {
+  .main-page__welcome {
     margin-top: 0;
   }
 }

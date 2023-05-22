@@ -1,9 +1,9 @@
-.welcome-wrapper__email-and-cards-container {
+.write-us-and-cards {
   position: relative;
 }
 
 @media screen and (width <= 946px) {
-  .welcome-wrapper__email-and-cards-container {
+  .write-us-and-cards {
     position: static;
     display: flex;
     flex-direction: column;
