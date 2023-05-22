@@ -1,0 +1,7 @@
+@media screen and (width <= 620px) {
+  .wlcm-write-us__bg-caption.wlcm-write-us__bg-caption-queries {
+    align-items: flex-end;
+    text-shadow: 0 0 36px rgb(5 105 255 / 5%);
+    line-height: 90%;
+  }
+}

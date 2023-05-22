@@ -101,9 +101,11 @@
 @import url("../blocks/welcome/__botton/welcome__button-queries.css");
 @import url("../blocks/wlcm-write-us/wlcm-write-us.css");
 @import url("../blocks/wlcm-write-us/__bg-caption/wlcm-write-us__bg-caption.css");
+@import url("../blocks/wlcm-write-us/__bg-caption/wlcm-write-us__bg-caption-queries.css");
 @import url("../blocks/wlcm-write-us/__content/wlcm-write-us__content.css");
-@import url("../blocks/wlcm-write-us/__caption/wlcm-write-us__caption.css");
-@import url("../blocks/wlcm-write-us/__icon/wlcm-write-us__icon.css");
+@import url("../blocks/wlcm-write-us/__content/wlcm-write-us__content-queries.css");
+@import url("../blocks/wlcm-write-us/__caption/wlcm-write-us__caption-queries.css");
+@import url("../blocks/wlcm-write-us/__icon/wlcm-write-us__icon-queries.css");
 @import url("../blocks/wlcm-cards/wlcm-cards.css");
 @import url("../blocks/wlcm-cards/__card/wlcm-cards__card.css");
 @import url("../blocks/wlcm-cards/__title-container/wlcm-cards__title-container.css");
